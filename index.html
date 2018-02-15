@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title>Tripadvisor- Solution for your travelling needs</title>
+    <meta name="description" content="">
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="navbar navbar-fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="/"><img src="images/talogo.png" alt="Your Logo"></a>
+                <div class="nav-collapse collapse navbar-responsive-collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">Hotels</a>
+                        </li>
+                        <li>
+                            <a href="#">Flights</a>
+                        </li>
+                        <li>
+                            <a href="#">Restaurants</a>
+                        </li>
+                        <li>
+                            <a href="#">Things to do</a>
+                        </li>
+                    </ul>
+                    <form class="navbar-form pull-left">
+                        <input type="text" class="form-control" placeholder="Search for places..." id="Search">
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                    </form>
+                    <ul class="nav navbar-nav pull-right">
+                        <li style="padding-top: 15px"><span class="glyphicon glyphicon-user"></span></li>
+                        <li>
+                            <a href="#">Login</a>
+                        </li>
+                        <li style="padding-top: 15px">
+                            |
+                        </li>
+                        <li> <a href="#">Sign up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="carousel slide" id="MyCarousel">
+            <ul class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#MyCarousel"></li>
+                <li data-slide-to="1" data-target="#MyCarousel"></li>
+                <li data-slide-to="2" data-target="#MyCarousel"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="active item" id="slide1">
+                    <div class="carousel-caption">
+                        <h4>Coorg</h4>
+                        <p>Scotland of India</p>
+                    </div>
+                </div>
+                <div class="item" id="slide2">
+                    <div class="carousel-caption">
+                        <h4>Gokarna</h4>
+                        <p>More like our favourite surf spot</p>
+                    </div>
+                </div>
+                <div class="item" id="slide3">
+                    <div class="carousel-caption">
+                        <h4>Ooty</h4>
+                        <p>The Queen of hills</p>
+                    </div>
+                </div>
+                <a class="left carousel-control" data-slide="prev" href="#MyCarousel">
+        			<span class="icon-prev"></span> 
+        		</a>
+                <a class="right carousel-control" data-slide="next" href="#MyCarousel">
+        			<span class="icon-next"></span> 
+        		</a>
+            </div>
+        </div>
+        <div class="row" id="BigCallout">
+        </div>
+        <div class="row" id="FeaturesHeading">
+            <div class="col-12">
+                <h2>Places to visit in Bangalore</h2>
+                <p class="lead">Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building. Former royal residences include 19th-century Bangalore Palace, modeled after England’s Windsor Castle, and Tipu Sultan’s Summer Palace, an 18th-century teak structure.</p>
+            </div>
+        </div>
+        <div class="row" id="Features">
+            <div class="col-sm-4 features">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <h3>Cubbon Park</h3></div>
+                    </div>
+                    <img src="images/cubbon.jpg" alt="Cubbon Park" style="width: 330px;">
+                    <p>Cubbon Park, Officially called Sri Chamarajendra Park is a landmark area of the Bengaluru city, located within the heart of the city in the Central Administrative Area. </p>
+                    <a href="#" target="_blank" class="btn btn-danger btn-block">Location</a>
+                </div>
+            </div>
+            <div class="col-sm-4 features">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <h3>Vidhan Soudha</h3></div>
+                    </div>
+                    <img src="images/vidhan.jpg" alt="Vidhan Soudha" style="width: 330px;">
+                    <p>The Vidhana Soudha located in Bengaluru, is the seat of the state legislature of Karnataka. It is an imposing building which incorporates elements of Indo-Saracenic and Dravidian styles. </p>
+                    <a href="#" target="_blank" class="btn btn-warning btn-block">Location</a>
+                </div>
+            </div>
+            <div class="col-sm-4 features">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <h3>Cubbon Park</h3></div>
+                    </div>
+                    <img src="images/cubbon.jpg" alt="Cubbon Park" style="width: 330px;">
+                    <p>Cubbon Park, Officially called Sri Chamarajendra Park is a landmark area of the Bengaluru city, located within the heart of the city in the Central Administrative Area. </p>
+                    <a href="#" target="_blank" class="btn btn-info btn-block">Location</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="MoreInfo">
+            <div class="col-sm-12">
+                <h2>Places to visit in Karnataka</h2>
+                <div class="tabbable">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#tab1" data-toggle="tab">Coorg</a></li>
+                        <li><a href="#tab2" data-toggle="tab">Gokarna</a></li>
+                        <li><a href="#tab3" data-toggle="tab">Ooty</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab1">
+                            <h4><span class="glyphicon glyphicon-map-marker"></span> Coorg <small>Scotland of India</small></h4>
+                            <img src="images/coo.jpg" alt="Coorg" class="pull-left" style="margin-right: 20px">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <hr>
+                            <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for reservations</a>
+                        </div>
+                        <div class="tab-pane" id="tab2">
+                            <h4><span class="glyphicon glyphicon-map-marker"></span> gokarna <small>More like our favourite surf spot</small></h4>
+                            <img src="images/go.jpg" alt="Gokarna" class="pull-left" style="margin-right: 20px">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <hr>
+                            <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for reservations</a>
+                        </div>
+                        <div class="tab-pane" id="tab3">
+                            <h4><span class="glyphicon glyphicon-map-marker"></span> Ooty <small>The Queen of hills</small></h4>
+                            <img src="images/oo.jpg" alt="Ooty" class="pull-left" style="margin-right: 20px">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <hr>
+                            <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for reservations</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <form>
+                        <div class="container" style="padding: 10px">
+                            <h2>Enter Details</h2>
+                            <div class="form-group">
+                                <label for="Name">Name:</label>
+                                <input type="text" class="form-control" id="Name" placeholder="Enter name" name="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="journeystartdate">Journey start date :</label>
+                                <input type="date" class="form-control" id="journeystartdate" name="Journey start date">
+                            </div>
+                            <div class="form-group">
+                                <label for="journeyenddate">Journey end date :</label>
+                                <input type="date" class="form-control" id="journeyenddate" name="Journey end date">
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="remember"> Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h6>Copyright &copy; 2018 {tripadvisor}</h6>
+                </div>
+                <!-- end col-sm-2 -->
+                <div class="col-sm-3">
+                    <h6>About Us</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <!-- end col-sm-4 -->
+                <div class="col-sm-3">
+                    <h6>Navigation</h6>
+                    <ul class="unstyled">
+                        <li><a href="#">Hotel</a></li>
+                        <li><a href="#">Flights</a></li>
+                        <li><a href="#">Restaurants</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </div>
+                <!-- end col-sm-2 -->
+                <div class="col-sm-3">
+                    <h6>Follow Us</h6>
+                    <ul class="unstyled">
+                        <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+                        <li><a href="#"><img src="images/insta.png" alt="instagram"></a></li>
+                        <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+                    </ul>
+                </div>
+                <!-- end col-sm-2 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </footer>
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>
+    window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="includes/js/script.js"></script>
+</body>
+
+</html>
